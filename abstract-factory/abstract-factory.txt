@@ -1,0 +1,27 @@
+It creates objects that are related by common theme. In OOPs, Factory is an object that creates another objects.
+An abstract factory has abstracted out the theme that is shared by newly created objects.
+
+The question is, why to leave the responsibility of creating new objects to others rather than creating it using constructor.
+The reason is, the constructor function is limited in its control over the overall object creation process, and sometimes we
+need to handover this responsibility to Factory method.
+
+This includes scenario where object creation process involves - object caching, reusing of objects, complex logics, etc.
+
+PARTICIPANTS
+1. Abstract Factory
+  - not used in JS
+  - decalre an interface for creating products
+
+2. Concrete Factory
+  - a factory obect that creates new objects
+
+3. Products
+  - the object instances that are created by factory
+
+4. Abstract Products
+  - not used in JS
+  - declares an interface for the product being created
+
+JS does not support class-based inheritance, hence abstract classs are not used in JS.
+Abstract classes and interfaces enforces consistent interfaces in derived class
+In JS, we must enforce this consitency by ourselves by making sure that each 'Concrete' object has the same interface definition (i.e, properties and functions) similar to others

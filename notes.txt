@@ -1,0 +1,41 @@
+Design patterns are advanced object-oriented solution to commonly occuring software problems.
+
+The 23 Gang of Four(GoF) patterns are generally considered the foundation for all other patterns.
+
+They are categorized into three groups:
+1. Creational
+2. Structural
+3. Behavioural
+
+----------------------------------------------------------------------
+
+Creational patterns:
+1. Abstract Factory
+2. Builder
+3. Factory method
+4. Prototype
+5. Singleton
+
+
+Structural patterns
+1. Adapter
+2. Bridge
+3. Composite
+4. Decorator
+5. Facade
+6. Flyweight
+7. Proxy
+
+
+Behavioural patterns
+1. Chain of response
+2. Command
+3. Interpreter
+4. Iterator
+5. Mediator
+6. Observer
+7. Memento
+8. State
+9. Strategy
+10. Template method
+11. Visitor
