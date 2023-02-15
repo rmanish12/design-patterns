@@ -1,0 +1,22 @@
+Builder pattern allows a client to contruct a complex object by specifying the type and content only.
+Construction details are hidden from the client entirely.
+
+USES:
+  - It simplfies client code to create complex objects.
+  - The client can still direct the steps taken by the Builder wothout knowing how the actual work is accomplished.
+
+PARTICIPANTS
+1. Director
+  - constructs products by using the Builder's multi-step interface
+
+2. Builder
+  - not used in JS
+  - declares a multistep interface for creating a complex object
+
+3. ConcreteBuilder
+  - implements the multistep Builder interface
+  - maintains the product through assembly process
+  - offers the ability to retrieve the newly created product
+
+4. Products
+  - represents the complex objects being assembled.
