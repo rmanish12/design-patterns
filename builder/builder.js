@@ -1,3 +1,4 @@
+// the Director
 function Shop() {
   this.contruct = function(builder) {
     builder.step1()
@@ -6,6 +7,7 @@ function Shop() {
   }
 }
 
+// 1st builder object
 function CarBuilder() {
   this.car = null
 
@@ -22,6 +24,7 @@ function CarBuilder() {
   }
 }
 
+// 2nd builder object
 function TruckBuilder() {
   this.truck = null;
 
