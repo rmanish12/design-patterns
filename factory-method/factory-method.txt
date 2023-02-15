@@ -1,0 +1,24 @@
+It creates a new object as instructed by the client.
+One way to create an object in JS is through new operator. However, there are situations where the client does not,
+or should not, know which one of several candidae objects to instantiate.
+The factory method allows the client to delegate object creation while still retaining control over which type to
+instantiate.
+
+USES:
+  - the key objective of Factory method is extensibility. It is commonly used in applications that manage, maintain, 
+    or manipulate collections of objects that are different but at the same time have many characteristics in common.
+  - E.g, a collection of documents with a mix of XML, PDF and RTF
+
+
+PARTICIPANTS:
+1. Creator
+  - the 'factory' object that creates new products
+  - implements 'factoryMethod' which returns newly created products
+
+2. Abstract product
+  - declares an interface for products
+  - not used in JS
+
+3. ConcreteProduct
+  - the product being created
+  - all products support the same interface
