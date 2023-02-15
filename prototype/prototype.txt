@@ -1,0 +1,22 @@
+It creates new objects, but rather than creating non-initialized objects it returns objects that are
+initialized with values it copied from a prototype/object.
+It is also referred to as Properties patter
+
+USES
+  - An example where this can be useful is the initialization of business objects with values that match the default
+    values in the database.
+  - The prototype object holds the default values that are copied over to newly created business objects
+
+PARTICIPANTS
+1. Client
+  - creates a new object by asking a prototype to clone itself
+
+2. Prototype
+  - creates an interface to clone itself
+
+3. Clones
+  - the cloned objects that are being created
+
+------------------------------------------------------------------------
+
+JS CAN DO THIS FAR MORE EFFECTIVELY USING THE BUILT-IN PROTOTYPE FACILITY
